@@ -12,7 +12,7 @@ In this demo project I have setup 4 Sinatra applications and set 4 routes to the
 Install
 ========
 
-    git clone ?
+    git clone git://github.com/morganp/demo_sinatra_synchrony.git
     cd demo_sinatra_synchrony
     budle install
     run_thin_modular.sh

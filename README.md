@@ -6,7 +6,7 @@ Demo Sinatra-Synchrony
 
 In this demo project I have setup 4 Sinatra applications and set 4 routes to them in the config.ru. With and with out sinatra-synchrony and with and without accessing a sqlite database.
 
-[Sinatra]: 
+[Sinatra]: http://www.sinatrarb.com/
 [sinatra-synchrony]: https://github.com/kyledrake/sinatra-synchrony
 
 Install

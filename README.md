@@ -1,4 +1,3 @@
-
 Demo Sinatra-Synchrony
 ==================
 
@@ -15,12 +14,15 @@ Install
     git clone git://github.com/morganp/demo_sinatra_synchrony.git
     cd demo_sinatra_synchrony
     budle install
-    run_thin_modular.sh
+    rackup
+    
+    ## Alternatively run with thin
+    #run_thin_modular.sh
 
 Test with
 
-    ab -c 100 -n 16000 http://127.0.0.1:4567/app1
-    ab -c 100 -n 16000 http://127.0.0.1:4567/app1synchrony
+    ab -c 100 -n 16000 http://127.0.0.1:9292/app1
+    ab -c 100 -n 16000 http://127.0.0.1:9292/app1synchrony
 
 Results
 =======
